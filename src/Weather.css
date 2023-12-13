@@ -3,7 +3,6 @@
   border-radius: 4px;
   color: rgb(135, 135, 135);
   font-family: Arial, Helvetica, sans-serif;
-
   padding: 16px;
 }
 
@@ -26,12 +25,11 @@
   list-style: none;
 }
 
-.Weather img {
-  display: inline-block;
+.Weather canvas {
   float: left;
-  height: 64px;
+  display: inline;
   margin-right: 10px;
-  width: 64px;
+  margin-top: 5px;
 }
 
 .Weather .temperature {
