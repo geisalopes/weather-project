@@ -1,9 +1,27 @@
 .Weather {
-  border: 1px solid #dadde1;
-  border-radius: 4px;
-  color: rgb(135, 135, 135);
+  background-color: white;
+  border-radius: 32px;
+  color: rgb(33, 33, 33);
   font-family: Arial, Helvetica, sans-serif;
-  padding: 16px;
+  padding: 60px;
+}
+
+.Weather .form-control {
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.Weather .btn-primary {
+  background-color: #285172;
+  border-color: #285172;
+  border-radius: 3px 15px 15px 3px;
+}
+
+.Weather .btn-primary:active {
+  background-color: #bed0de;
+  border-color: #bed0de;
+  color: #2d404f;
 }
 
 .Weather h1 {
@@ -47,4 +65,87 @@
   position: relative;
   line-height: 1;
   top: -34px;
+}
+
+@media screen and (1800px <= width <= 2500px) {
+  .Weather {
+    padding: 300px;
+    border-radius: 32px;
+  }
+  .Weather .form-control {
+    margin-bottom: 15px;
+    font-size: 38px;
+    padding: 8px;
+  }
+  .Weather .btn-primary {
+    margin-top: 10px;
+    font-size: 28px;
+    border-radius: 8px;
+  }
+  .Weather .col-9 {
+    width: 100%;
+  }
+
+  .Weather .col-3 {
+    width: 100%;
+  }
+
+  .Weather h1 {
+    margin-top: 40px;
+    font-size: 52px;
+    font-weight: 100;
+  }
+
+  .Weather li {
+    font-size: 26px;
+    margin-top: 20px;
+  }
+  .Weather .main-icon canvas {
+    width: 82px;
+    height: 82px;
+  }
+  .Weather .temperature {
+    margin-top: 50px;
+    font-size: 94px;
+    line-height: 100px;
+  }
+
+  .Weather .unit {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Weather {
+    padding: 10px;
+    border-radius: 0;
+  }
+
+  .Weather .temperature {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .Weather .unit {
+    top: -24px;
+  }
+
+  .Weather .form-control {
+    margin-top: 10px;
+  }
+
+  .Weather .btn-primary {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 8px 0 8px 0;
+    border-radius: 3px;
+  }
+
+  .Weather .col-3 {
+    padding: 0 10px 0 0;
+  }
+
+  .Weather .weather-condition {
+    padding: 0 15px 0 30px;
+  }
 }

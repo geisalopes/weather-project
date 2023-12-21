@@ -1,0 +1,7 @@
+body {
+  background-image: url("./images/watercolor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 0;
+}
