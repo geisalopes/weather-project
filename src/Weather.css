@@ -1,6 +1,7 @@
 .Weather {
   background-color: white;
   border-radius: 32px;
+  border: 5px solid #bed0de;
   color: rgb(33, 33, 33);
   font-family: Arial, Helvetica, sans-serif;
   padding: 60px;
@@ -65,54 +66,6 @@
   position: relative;
   line-height: 1;
   top: -34px;
-}
-
-@media screen and (1800px <= width <= 2500px) {
-  .Weather {
-    padding: 300px;
-    border-radius: 32px;
-  }
-  .Weather .form-control {
-    margin-bottom: 15px;
-    font-size: 38px;
-    padding: 8px;
-  }
-  .Weather .btn-primary {
-    margin-top: 10px;
-    font-size: 28px;
-    border-radius: 8px;
-  }
-  .Weather .col-9 {
-    width: 100%;
-  }
-
-  .Weather .col-3 {
-    width: 100%;
-  }
-
-  .Weather h1 {
-    margin-top: 40px;
-    font-size: 52px;
-    font-weight: 100;
-  }
-
-  .Weather li {
-    font-size: 26px;
-    margin-top: 20px;
-  }
-  .Weather .main-icon canvas {
-    width: 82px;
-    height: 82px;
-  }
-  .Weather .temperature {
-    margin-top: 50px;
-    font-size: 94px;
-    line-height: 100px;
-  }
-
-  .Weather .unit {
-    font-size: 34px;
-  }
 }
 
 @media (max-width: 900px) {

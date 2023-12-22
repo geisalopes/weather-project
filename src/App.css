@@ -26,11 +26,3 @@
     padding: 0 50px;
   }
 }
-
-@media screen and (1800px <= width <= 2500px) {
-  .App {
-    max-width: 1650px;
-    margin: 100px auto;
-    min-height: 100vh;
-  }
-}
