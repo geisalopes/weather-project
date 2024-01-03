@@ -7,9 +7,8 @@ import "./Weather.css";
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
+
   function handleResponse(response) {
-    console.log(window.innerWidth);
-    console.log(window.innerHeight);
     setWeatherData({
       ready: true,
       coordinates: response.data.coord,
@@ -72,7 +71,6 @@ export default function Weather(props) {
       </div>
     );
   } else {
-    // search();
     navigator.geolocation.getCurrentPosition(searchLocation);
     return "Loading...";
   }
